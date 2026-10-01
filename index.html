@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ПОЛИГОН — наружная реклама, вывески и печать</title>
+  <meta name="description" content="Рекламно-производственная компания ПОЛИГОН: вывески и объёмные буквы, широкоформатная печать, навигация, оформление транспорта, дорожные знаки и монтаж под ключ.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <header class="header" id="header">
+    <div class="header__progress" aria-hidden="true"><span class="header__progress-bar" id="scrollProgress"></span></div>
+    <div class="container header__inner">
+      <a class="logo" href="#top" aria-label="ПОЛИГОН — на первый экран">
+        <img class="logo__img" src="assets/logo/logo.png" alt="ПОЛИГОН — наружная реклама" width="155" height="40">
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#services">Услуги</a></li>
+          <li><a class="nav__link" href="#works">Наши работы</a></li>
+          <li><a class="nav__link" href="#advantages">Почему мы</a></li>
+          <li><a class="nav__link" href="#process">Как работаем</a></li>
+          <li><a class="nav__link" href="#contacts">Контакты</a></li>
+        </ul>
+        <div class="nav__foot">
+          <a class="nav__phone" href="tel:+73437098844">+7 (34370) 9-88-44</a>
+          <span class="nav__note">Пн–Пт 09:00–18:00 · Новоуральск</span>
+          <a class="btn btn--primary btn--cta nav__cta" href="#order">
+            Рассчитать проект
+            <span class="btn__diagonal" aria-hidden="true"></span>
+          </a>
+        </div>
+      </nav>
+
+      <div class="header__actions">
+        <a class="phone" href="tel:+73437098844">
+          <span class="phone__icon" aria-hidden="true"></span>
+          <span class="phone__text">+7 (34370) 9-88-44</span>
+        </a>
+        <a class="btn btn--primary btn--cta" href="#order">
+          Рассчитать проект
+          <span class="btn__diagonal" aria-hidden="true"></span>
+        </a>
+        <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ПЕРВЫЙ ЭКРАН -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="hero__glow"></span>
+        <span class="hero__grid"></span>
+        <svg class="hero__arrow" viewBox="0 0 620 720" preserveAspectRatio="xMaxYMid slice" focusable="false">
+          <path class="hero__arrow-band" d="M150 720 470 0h104L254 720Z"/>
+          <path class="hero__arrow-edge" d="M254 720 574 0h42L296 720Z"/>
+          <path class="hero__arrow-tip" d="M470 0h104l-52 132Z"/>
+          <path class="hero__arrow-line" d="M330 720 620 66"/>
+          <path class="hero__arrow-line hero__arrow-line--thin" d="M392 720 620 214"/>
+        </svg>
+        <span class="hero__axis"></span>
+      </div>
+
+      <div class="container hero__inner">
+        <p class="hero__label hero__anim" style="--d:60ms">
+          <span class="hero__label-dot" aria-hidden="true"></span>
+          Рекламно-производственная компания · с 1996 года
+        </p>
+
+        <h1 class="hero__title hero__anim" style="--d:160ms">
+          <span class="hero__line">Реклама, которую</span>
+          <span class="hero__line">невозможно <span class="hero__title-accent">не заметить</span></span>
+        </h1>
+
+        <p class="hero__sub hero__anim" style="--d:260ms">
+          <span>Вывески</span><i class="hero__sub-dot" aria-hidden="true"></i>
+          <span>наружная реклама</span><i class="hero__sub-dot" aria-hidden="true"></i>
+          <span>печать</span><i class="hero__sub-dot" aria-hidden="true"></i>
+          <span>объёмные буквы</span><i class="hero__sub-dot" aria-hidden="true"></i>
+          <span>монтаж</span>
+        </p>
+
+        <div class="hero__body">
+          <div class="hero__cta hero__anim" style="--d:340ms">
+            <a class="btn btn--primary" href="#order">
+              Рассчитать проект
+              <span class="btn__diagonal" aria-hidden="true"></span>
+            </a>
+            <a class="btn btn--ghost" href="#works">Наши работы</a>
+          </div>
+
+          <dl class="hero__facts hero__anim" style="--d:440ms">
+            <div class="fact">
+              <dt class="fact__value"><span data-count="30">30</span></dt>
+              <dd class="fact__label">лет на рынке<br>наружной рекламы</dd>
+            </div>
+            <div class="fact">
+              <dt class="fact__value"><span data-count="4200">4200</span><span class="fact__plus">+</span></dt>
+              <dd class="fact__label">смонтированных<br>объектов</dd>
+            </div>
+            <div class="fact">
+              <dt class="fact__value"><span data-count="72">72</span> ч</dt>
+              <dd class="fact__label">средний срок<br>изготовления</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero__visual hero__anim" style="--d:520ms">
+          <figure class="visual-card visual-card--hero">
+            <span class="visual-card__corner" aria-hidden="true"></span>
+            <div class="visual-card__frame">
+              <img src="assets/img/hero-facade.svg" alt="Ночной фасад здания со световой вывеской" width="820" height="640">
+            </div>
+            <figcaption class="visual-card__meta">
+              <span class="visual-card__tag">Световой короб 8,4 × 1,8 м</span>
+              <span class="visual-card__note">Объект сдан · ул. Гагарина</span>
+            </figcaption>
+          </figure>
+
+          <div class="hero__chip hero__chip--top hero__anim" style="--d:700ms">
+            <span class="hero__chip-value">3 года</span>
+            <span class="hero__chip-label">гарантия на конструкцию<br>и электрику</span>
+          </div>
+          <div class="hero__chip hero__chip--bottom hero__anim" style="--d:800ms">
+            <span class="hero__chip-value">Свой цех</span>
+            <span class="hero__chip-label">фрезеровка, УФ-печать,<br>сварка, сборка</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker__track">
+          <div class="ticker__group">
+            <span>Вывески</span><i></i><span>Объёмные буквы</span><i></i><span>Широкоформатная печать</span><i></i>
+            <span>Световые короба</span><i></i><span>Навигация</span><i></i><span>Оформление транспорта</span><i></i>
+            <span>Дорожные знаки</span><i></i><span>Монтаж под ключ</span><i></i>
+          </div>
+          <div class="ticker__group">
+            <span>Вывески</span><i></i><span>Объёмные буквы</span><i></i><span>Широкоформатная печать</span><i></i>
+            <span>Световые короба</span><i></i><span>Навигация</span><i></i><span>Оформление транспорта</span><i></i>
+            <span>Дорожные знаки</span><i></i><span>Монтаж под ключ</span><i></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ВИЗУАЛЬНЫЙ БЛОК РАБОТ -->
+    <section class="showcase" id="showcase">
+      <div class="container">
+        <div class="section-head section-head--split" data-reveal>
+          <div>
+            <span class="kicker">01 / Портфолио</span>
+            <h2 class="section-title">Объекты, которые<br>уже работают на бизнес</h2>
+          </div>
+          <p class="section-lead">
+            Фасады, входные группы, интерьеры, транспорт и уличные конструкции —
+            от эскиза до сервисного обслуживания после монтажа.
+          </p>
+        </div>
+
+        <div class="showcase__grid">
+          <article class="work-tile work-tile--xl" data-reveal>
+            <img src="assets/img/work-letters.svg" alt="Объёмные буквы с внутренней подсветкой" loading="lazy">
+            <div class="work-tile__body">
+              <span class="work-tile__cat">Вывески</span>
+              <h3 class="work-tile__title">Объёмные буквы с контражуром</h3>
+            </div>
+            <span class="work-tile__index">01</span>
+          </article>
+
+          <article class="work-tile work-tile--tall" data-reveal>
+            <img src="assets/img/work-print.svg" alt="Широкоформатная печать на баннере" loading="lazy">
+            <div class="work-tile__body">
+              <span class="work-tile__cat">Печать</span>
+              <h3 class="work-tile__title">Печать на баннере и плёнке</h3>
+            </div>
+            <span class="work-tile__index">02</span>
+          </article>
+
+          <article class="work-tile" data-reveal>
+            <img src="assets/img/work-car.svg" alt="Оформление транспорта брендированной плёнкой" loading="lazy">
+            <div class="work-tile__body">
+              <span class="work-tile__cat">Транспорт</span>
+              <h3 class="work-tile__title">Ливрея корпоративного парка</h3>
+            </div>
+            <span class="work-tile__index">03</span>
+          </article>
+
+          <article class="work-tile" data-reveal>
+            <img src="assets/img/work-led.svg" alt="Бегущая строка на LED-экране" loading="lazy">
+            <div class="work-tile__body">
+              <span class="work-tile__cat">LED</span>
+              <h3 class="work-tile__title">Бегущая строка 12 м</h3>
+            </div>
+            <span class="work-tile__index">04</span>
+          </article>
+
+          <article class="work-tile work-tile--wide" data-reveal>
+            <img src="assets/img/work-window.svg" alt="Оформление витрин плёнкой" loading="lazy">
+            <div class="work-tile__body">
+              <span class="work-tile__cat">Витрины</span>
+              <h3 class="work-tile__title">Матирование и брендирование витрин</h3>
+            </div>
+            <span class="work-tile__index">05</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- УСЛУГИ -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-head section-head--split" data-reveal>
+          <div>
+            <span class="kicker">02 / Услуги</span>
+            <h2 class="section-title">Полный цикл:<br>от идеи до монтажа</h2>
+          </div>
+          <p class="section-lead">
+            Берём задачу целиком — разрабатываем конструкцию, считаем смету,
+            производим и выходим на объект со своей техникой и допусками.
+          </p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service service--feature" data-reveal>
+            <span class="service__num">01</span>
+            <h3 class="service__title">Вывески и объёмные буквы</h3>
+            <p class="service__text">Световые и несветовые вывески, крышные установки, лайтбоксы, пилонные конструкции.</p>
+            <ul class="service__list">
+              <li>Объёмные буквы и логотипы</li>
+              <li>Световые короба</li>
+              <li>Крышные установки</li>
+              <li>Кронштейны и входные группы</li>
+            </ul>
+            <a class="service__link" href="#order"><span>Обсудить задачу</span><span class="btn__arrow" aria-hidden="true"></span></a>
+          </article>
+
+          <article class="service" data-reveal>
+            <span class="service__num">02</span>
+            <h3 class="service__title">Печать и УФ</h3>
+            <p class="service__text">Широкоформат и интерьерная печать на баннере, плёнке, холсте, обоях, полиэстере.</p>
+            <ul class="service__list">
+              <li>Баннеры и плёнка</li>
+              <li>Холст и фотообои</li>
+              <li>УФ-печать по пластику</li>
+            </ul>
+            <a class="service__link" href="#order"><span>Обсудить задачу</span><span class="btn__arrow" aria-hidden="true"></span></a>
+          </article>
+
+          <article class="service" data-reveal>
+            <span class="service__num">03</span>
+            <h3 class="service__title">Навигация и POS</h3>
+            <p class="service__text">Таблички, указатели, стенды, демосистемы, ценникодержатели, наклейки.</p>
+            <ul class="service__list">
+              <li>Системы ориентации</li>
+              <li>Интерьерная навигация</li>
+              <li>POS-материалы</li>
+            </ul>
+            <a class="service__link" href="#order"><span>Обсудить задачу</span><span class="btn__arrow" aria-hidden="true"></span></a>
+          </article>
+
+          <article class="service" data-reveal>
+            <span class="service__num">04</span>
+            <h3 class="service__title">Транспорт</h3>
+            <p class="service__text">Корпоративная ливрея, оклейка плёнкой, оформление такси, автобусов и спецтехники.</p>
+            <ul class="service__list">
+              <li>Частичная и полная оклейка</li>
+              <li>Магнитные и съёмные решения</li>
+              <li>Защитные покрытия</li>
+            </ul>
+            <a class="service__link" href="#order"><span>Обсудить задачу</span><span class="btn__arrow" aria-hidden="true"></span></a>
+          </article>
+
+          <article class="service" data-reveal>
+            <span class="service__num">05</span>
+            <h3 class="service__title">Знаки и безопасность</h3>
+            <p class="service__text">Дорожные знаки по ГОСТ, временные знаки, знаки пожарной безопасности, план эвакуации.</p>
+            <ul class="service__list">
+              <li>Светоотражающая плёнка</li>
+              <li>Уличные и домовые таблички</li>
+              <li>Стенды для школ и предприятий</li>
+            </ul>
+            <a class="service__link" href="#order"><span>Обсудить задачу</span><span class="btn__arrow" aria-hidden="true"></span></a>
+          </article>
+
+          <article class="service service--dark" data-reveal>
+            <span class="service__num">05+</span>
+            <h3 class="service__title">Монтаж и сервис</h3>
+            <p class="service__text">Высотные и электротехнические работы, натяжка баннеров, ремонт и мойка рекламных объектов.</p>
+            <ul class="service__list">
+              <li>Свои бригады и допуски</li>
+              <li>Обслуживание по договору</li>
+              <li>Устраняем чужие ошибки</li>
+            </ul>
+            <a class="service__link" href="#order"><span>Обсудить задачу</span><span class="btn__arrow" aria-hidden="true"></span></a>
+          </article>
+
+          <div class="services__note" data-reveal>
+            <div>
+              <p class="services__note-title">...а может, мы что-то забыли?</p>
+              <p class="services__text">Штендеры, мобильные стенды, флаги, световозвращающая плёнка, трафареты по асфальту,
+                шильды для оборудования, сувенирка и дизайн-макеты — берём в работу и нестандартные задачи.</p>
+            </div>
+            <a class="btn btn--ghost btn--sm" href="#order">Описать задачу<span class="btn__arrow" aria-hidden="true"></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ПРЕИМУЩЕСТВА -->
+    <section class="advantages" id="advantages">
+      <div class="container advantages__inner">
+        <div class="advantages__head" data-reveal>
+          <span class="kicker">03 / Преимущества</span>
+          <h2 class="section-title">Вам к нам —<br>и вот почему</h2>
+          <p class="section-lead">
+            На время работы над проектом мы становимся частью вашей команды
+            и предлагаем только оптимальные решения. С гарантией.
+          </p>
+          <a class="btn btn--primary" href="#order">Получить расчёт<span class="btn__arrow" aria-hidden="true"></span></a>
+        </div>
+
+        <ul class="advantages__list">
+          <li class="adv" data-reveal>
+            <span class="adv__icon" aria-hidden="true"></span>
+            <h3 class="adv__title">Собственное производство</h3>
+            <p class="adv__text">Фрезеровка, лазерная резка, УФ-печать, сварка и сборка в одном цехе — без посредников и наценок.</p>
+          </li>
+          <li class="adv" data-reveal>
+            <span class="adv__icon adv__icon--red" aria-hidden="true"></span>
+            <h3 class="adv__title">Сроки, которые держим</h3>
+            <p class="adv__text">Большинство типовых объектов — от 72 часов. Срочные заказы берём в работу в день обращения.</p>
+          </li>
+          <li class="adv" data-reveal>
+            <span class="adv__icon" aria-hidden="true"></span>
+            <h3 class="adv__title">Проект, а не «коробка»</h3>
+            <p class="adv__text">3D-визуализация на вашем фасаде до старта: видите результат до того, как он напечатан.</p>
+          </li>
+          <li class="adv" data-reveal>
+            <span class="adv__icon" aria-hidden="true"></span>
+            <h3 class="adv__title">Монтаж под ключ</h3>
+            <p class="adv__text">Высота, электрика, согласование размещения. Правильно натянутый баннер живёт в 5 раз дольше.</p>
+          </li>
+          <li class="adv" data-reveal>
+            <span class="adv__icon adv__icon--red" aria-hidden="true"></span>
+            <h3 class="adv__title">Гарантия до 3 лет</h3>
+            <p class="adv__text">Отвечаем за конструкцию, подсветку и монтаж. Сервис и обслуживание — тоже на нас.</p>
+          </li>
+          <li class="adv" data-reveal>
+            <span class="adv__icon" aria-hidden="true"></span>
+            <h3 class="adv__title">Смета без сюрпризов</h3>
+            <p class="adv__text">Фиксируем стоимость материалов и работ в договоре. Изменения — только по вашему согласию.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- НАШИ РАБОТЫ -->
+    <section class="works" id="works">
+      <div class="container">
+        <div class="section-head section-head--split" data-reveal>
+          <div>
+            <span class="kicker">04 / Наши работы</span>
+            <h2 class="section-title">За 30 лет накопилось —<br>есть чем гордиться</h2>
+          </div>
+          <div class="filters" role="group" aria-label="Фильтр работ по категориям">
+            <button class="filters__btn is-active" type="button" data-filter="all">Все</button>
+            <button class="filters__btn" type="button" data-filter="sign">Вывески</button>
+            <button class="filters__btn" type="button" data-filter="print">Печать</button>
+            <button class="filters__btn" type="button" data-filter="car">Транспорт</button>
+            <button class="filters__btn" type="button" data-filter="signs">Знаки</button>
+            <button class="filters__btn" type="button" data-filter="nav">Навигация</button>
+          </div>
+        </div>
+
+        <div class="works__grid" id="worksGrid">
+          <article class="work-card" data-category="sign" data-reveal>
+            <div class="work-card__media"><img src="assets/img/work-facade.svg" alt="Световая вывеска на фасаде" loading="lazy"></div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Наружная реклама</span>
+              <h3 class="work-card__title">Фасад бизнес-центра</h3>
+              <span class="work-card__year">2025</span>
+            </div>
+          </article>
+
+          <article class="work-card" data-category="sign" data-reveal>
+            <div class="work-card__media"><img src="assets/img/work-letters.svg" alt="Объёмные буквы" loading="lazy"></div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Вывески</span>
+              <h3 class="work-card__title">Буквы с внутренней подсветкой</h3>
+              <span class="work-card__year">2025</span>
+            </div>
+          </article>
+
+          <article class="work-card" data-category="print" data-reveal>
+            <div class="work-card__media"><img src="assets/img/work-print.svg" alt="Широкоформатная печать" loading="lazy"></div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Печать</span>
+              <h3 class="work-card__title">Баннер 6 × 3 м для фасада</h3>
+              <span class="work-card__year">2024</span>
+            </div>
+          </article>
+
+          <article class="work-card" data-category="car" data-reveal>
+            <div class="work-card__media"><img src="assets/img/work-car.svg" alt="Оклейка транспорта" loading="lazy"></div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Транспорт</span>
+              <h3 class="work-card__title">Парк курьерской службы</h3>
+              <span class="work-card__year">2024</span>
+            </div>
+          </article>
+
+          <article class="work-card" data-category="signs" data-reveal>
+            <div class="work-card__media"><img src="assets/img/work-signs.svg" alt="Дорожные знаки" loading="lazy"></div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Дорожные знаки</span>
+              <h3 class="work-card__title">Партия знаков по ГОСТ</h3>
+              <span class="work-card__year">2024</span>
+            </div>
+          </article>
+
+          <article class="work-card" data-category="nav" data-reveal>
+            <div class="work-card__media"><img src="assets/img/work-pos.svg" alt="Навигация и POS-материалы" loading="lazy"></div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Навигация</span>
+              <h3 class="work-card__title">Система ориентации клиники</h3>
+              <span class="work-card__year">2023</span>
+            </div>
+          </article>
+
+          <article class="work-card" data-category="nav" data-reveal>
+            <div class="work-card__media"><img src="assets/img/work-window.svg" alt="Оформление витрин" loading="lazy"></div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Витрины</span>
+              <h3 class="work-card__title">Брендирование магазина</h3>
+              <span class="work-card__year">2023</span>
+            </div>
+          </article>
+
+          <article class="work-card" data-category="sign" data-reveal>
+            <div class="work-card__media"><img src="assets/img/work-led.svg" alt="Бегущая строка" loading="lazy"></div>
+            <div class="work-card__body">
+              <span class="work-card__cat">LED</span>
+              <h3 class="work-card__title">Бегущая строка на входе</h3>
+              <span class="work-card__year">2023</span>
+            </div>
+          </article>
+
+          <article class="work-card" data-category="print" data-reveal>
+            <div class="work-card__media"><img src="assets/img/work-banner.svg" alt="Баннерная конструкция" loading="lazy"></div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Конструкции</span>
+              <h3 class="work-card__title">Щит 3 × 2 на опорах</h3>
+              <span class="work-card__year">2022</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="works__foot" data-reveal>
+          <p class="works__note">Показаны не все объекты — полный список работ пришлём в мессенджер.</p>
+          <a class="btn btn--ghost" href="#order">Запросить портфолио</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- КАК МЫ РАБОТАЕМ -->
+    <section class="process" id="process">
+      <div class="container">
+        <div class="section-head section-head--split" data-reveal>
+          <div>
+            <span class="kicker">05 / Процесс</span>
+            <h2 class="section-title">Как мы работаем</h2>
+          </div>
+          <p class="section-lead">Прозрачный маршрут: на каждом этапе вы понимаете, что происходит с проектом и что будет дальше.</p>
+        </div>
+
+        <ol class="process__list">
+          <li class="step" data-reveal>
+            <span class="step__num">01</span>
+            <h3 class="step__title">Заявка и замер</h3>
+            <p class="step__text">Выезжаем на объект, снимаем размеры, проверяем основание, электрику и требования по размещению.</p>
+            <span class="step__time">день 1</span>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num">02</span>
+            <h3 class="step__title">Концепция и смета</h3>
+            <p class="step__text">Готовим дизайн, 3D-визуализацию на фасаде и точную смету с вариантами по материалам.</p>
+            <span class="step__time">1–3 дня</span>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num">03</span>
+            <h3 class="step__title">Договор и производство</h3>
+            <p class="step__text">Фиксируем сроки и стоимость, запускаем заказ в собственном цехе, присылаем фото хода работ.</p>
+            <span class="step__time">2–7 дней</span>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num">04</span>
+            <h3 class="step__title">Монтаж</h3>
+            <p class="step__text">Своя бригада, высота и электрика. Убираем за собой, сдаём объект по акту с фотоотчётом.</p>
+            <span class="step__time">1–2 дня</span>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num">05</span>
+            <h3 class="step__title">Гарантия и сервис</h3>
+            <p class="step__text">До 3 лет гарантии, замена ламп и светодиодов, ремонт и мойка рекламных объектов.</p>
+            <span class="step__time">всё время</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- БЛОК ЗАЯВКИ -->
+    <section class="order" id="order">
+      <div class="container order__inner">
+        <div class="order__side" data-reveal>
+          <span class="kicker">06 / Заявка</span>
+          <h2 class="section-title">Рассчитаем проект<br>за 2 часа</h2>
+          <p class="section-lead">
+            Пришлите фото фасада или задачу текстом — предложим решение,
+            материалы и вилку стоимости. Без обязательств и навязчивых звонков.
+          </p>
+          <ul class="order__points">
+            <li>Ответ в течение рабочего дня</li>
+            <li>Смета в двух вариантах по бюджету</li>
+            <li>Поможем с согласованием размещения</li>
+          </ul>
+        </div>
+
+        <form class="order__form glass" id="orderForm" novalidate data-reveal>
+          <div class="form__row">
+            <label class="field">
+              <span class="field__label">Как к вам обращаться</span>
+              <input class="field__input" type="text" name="name" placeholder="Имя" autocomplete="name">
+            </label>
+            <label class="field">
+              <span class="field__label">Телефон или e-mail</span>
+              <input class="field__input" type="text" name="contact" placeholder="+7 900 000-00-00" autocomplete="tel">
+            </label>
+          </div>
+
+          <div class="form__row">
+            <label class="field">
+              <span class="field__label">Задача</span>
+              <select class="field__input" name="task">
+                <option>Вывеска или объёмные буквы</option>
+                <option>Печать: баннер, плёнка, холст</option>
+                <option>Навигация, таблички, POS</option>
+                <option>Оформление транспорта</option>
+                <option>Дорожные знаки, безопасность</option>
+                <option>Монтаж или ремонт</option>
+              </select>
+            </label>
+            <label class="field">
+              <span class="field__label">Когда нужно</span>
+              <select class="field__input" name="deadline">
+                <option>Как можно быстрее</option>
+                <option>В течение месяца</option>
+                <option>Планируем на квартал</option>
+                <option>Пока только изучаем</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="field">
+            <span class="field__label">Коротко о проекте</span>
+            <textarea class="field__input field__input--area" name="message" rows="3" placeholder="Например: вывеска 4 м на фасад, адрес Гагарина 7"></textarea>
+          </label>
+
+          <div class="form__foot">
+            <button class="btn btn--primary" type="submit">Отправить заявку<span class="btn__arrow" aria-hidden="true"></span></button>
+            <p class="form__hint" id="formHint">Форма пока демонстрационная: отправка на сервер подключим следующим этапом.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section class="contacts" id="contacts">
+      <div class="container contacts__inner">
+        <div class="contacts__info" data-reveal>
+          <span class="kicker">07 / Контакты</span>
+          <h2 class="section-title">Нас легко найти,<br>сложно потерять</h2>
+
+          <ul class="contacts__list">
+            <li class="contact">
+              <span class="contact__label">Адрес производства</span>
+              <span class="contact__value">г. Новоуральск, ул. Гагарина, 7а</span>
+            </li>
+            <li class="contact">
+              <span class="contact__label">Телефоны</span>
+              <a class="contact__value contact__value--link" href="tel:+73437098844">+7 (34370) 9-88-44</a>
+              <a class="contact__value contact__value--link" href="tel:+73437095111">+7 (34370) 9-51-11</a>
+            </li>
+            <li class="contact">
+              <span class="contact__label">Почта</span>
+              <a class="contact__value contact__value--link" href="mailto:info@poligon96.ru">info@poligon96.ru</a>
+            </li>
+            <li class="contact">
+              <span class="contact__label">График</span>
+              <span class="contact__value">Пн–Пт 09:00–18:00 · Сб по договорённости</span>
+            </li>
+          </ul>
+
+          <div class="contacts__actions">
+            <a class="btn btn--primary" href="#order">Написать нам<span class="btn__arrow" aria-hidden="true"></span></a>
+            <a class="btn btn--ghost" href="tel:+73437098844">Позвонить</a>
+          </div>
+        </div>
+
+        <div class="contacts__map glass" data-reveal aria-hidden="true">
+          <div class="contacts__mapGrid"></div>
+          <div class="contacts__mapPin">
+            <span class="contacts__mapDot"></span>
+            <span class="contacts__mapTip">Гагарина, 7а — цех и офис</span>
+          </div>
+          <div class="contacts__mapLabel">Новоуральск · Свердловская область</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img class="footer__logo" src="assets/logo/logo-white.png" alt="ПОЛИГОН" width="172" height="44">
+          <p class="footer__slogan">Создаём пространство рекламы.<br>Грамотно, актуально и со вкусом.</p>
+        </div>
+
+        <div class="footer__cols">
+          <nav class="footer__col" aria-label="Услуги">
+            <h3 class="footer__title">Услуги</h3>
+            <ul>
+              <li><a href="#services">Вывески и буквы</a></li>
+              <li><a href="#services">Печать и УФ</a></li>
+              <li><a href="#services">Навигация и POS</a></li>
+              <li><a href="#services">Оформление транспорта</a></li>
+              <li><a href="#services">Знаки по ГОСТ</a></li>
+            </ul>
+          </nav>
+          <nav class="footer__col" aria-label="Компания">
+            <h3 class="footer__title">Компания</h3>
+            <ul>
+              <li><a href="#showcase">Портфолио</a></li>
+              <li><a href="#advantages">Преимущества</a></li>
+              <li><a href="#process">Как мы работаем</a></li>
+              <li><a href="#contacts">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="footer__col">
+            <h3 class="footer__title">Связь</h3>
+            <ul>
+              <li><a href="tel:+73437098844">+7 (34370) 9-88-44</a></li>
+              <li><a href="mailto:info@poligon96.ru">info@poligon96.ru</a></li>
+              <li><span>ул. Гагарина, 7а, Новоуральск</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__legal">
+          ИП Урлапов М. В. · ОГРНИП 317665800068934 · ИНН 662903623050<br>
+          Юридический адрес: 624130, г. Новоуральск, ул. Северная, 2, кв. 144
+        </p>
+        <p class="footer__copy">© 1996–2026 ПОЛИГОН. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
