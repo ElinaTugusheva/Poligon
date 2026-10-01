@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="Баннерные конструкции">
+  <defs>
+    <linearGradient id="bg8" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14161B"/><stop offset="1" stop-color="#090A0D"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E4262C"/><stop offset="1" stop-color="#9C141A"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg8)"/>
+  <g stroke="#1E2128"><path d="M0 84h640M0 168h640M0 252h640M0 336h640M106 0v420M212 0v420M318 0v420M424 0v420M530 0v420"/></g>
+
+  <g stroke="#3A3F49" stroke-width="6" fill="none">
+    <path d="M150 360V96M490 360V96"/>
+    <path d="M150 130h340M150 300h340"/>
+  </g>
+  <g stroke="#22262E" stroke-width="3"><path d="M150 130l340 170M490 130L150 300"/></g>
+  <rect x="150" y="96" width="340" height="214" fill="url(#cloth)"/>
+  <g fill="#F4F5F7">
+    <rect x="182" y="130" width="20" height="60"/><rect x="212" y="130" width="20" height="60"/>
+    <rect x="182" y="152" width="50" height="18"/>
+    <rect x="252" y="130" width="20" height="60"/><rect x="282" y="130" width="20" height="60"/>
+    <rect x="252" y="172" width="50" height="18"/>
+    <rect x="322" y="130" width="20" height="60"/>
+    <path d="M352 130h20v60zM382 130l20 20v20l-20 20z"/>
+  </g>
+  <g fill="#0C0D11" opacity="0.85"><rect x="182" y="220" width="180" height="14" rx="4"/><rect x="182" y="248" width="120" height="14" rx="4" opacity="0.6"/></g>
+  <g fill="#0C0D11"><circle cx="162" cy="108" r="6"/><circle cx="478" cy="108" r="6"/><circle cx="162" cy="298" r="6"/><circle cx="478" cy="298" r="6"/></g>
+  <g stroke="#E4262C" stroke-width="2" opacity="0.5"><path d="M162 108l-40-30M478 108l40-30"/></g>
+  <path d="M60 360h520" stroke="#3A3F49" stroke-width="4"/>
+  <g fill="#16181E"><rect x="120" y="360" width="60" height="26" rx="4"/><rect x="460" y="360" width="60" height="26" rx="4"/></g>
+  <g fill="#6C727E" font-family="monospace" font-size="13"><text x="60" y="404" fill="#7C828E">GRID 3x2 / MESH / EYELETS 25cm</text></g>
+</svg>

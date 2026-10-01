@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="Широкоформатная печать">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15161B"/><stop offset="1" stop-color="#090A0D"/>
+    </linearGradient>
+    <linearGradient id="sheet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4F5F7"/><stop offset="0.6" stop-color="#D7DAE0"/><stop offset="1" stop-color="#AEB3BC"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E4262C"/><stop offset="1" stop-color="#8E1218"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg3)"/>
+  <g stroke="#1E2128" stroke-width="1"><path d="M0 84h640M0 168h640M0 252h640M0 336h640M106 0v420M212 0v420M318 0v420M424 0v420M530 0v420"/></g>
+
+  <rect x="70" y="70" width="500" height="120" rx="6" fill="#101216" stroke="#282C34"/>
+  <g fill="#1B1E24"><rect x="92" y="92" width="140" height="76" rx="4"/><rect x="252" y="92" width="90" height="76" rx="4"/></g>
+  <g fill="#E4262C"><rect x="364" y="92" width="184" height="18" rx="4"/><rect x="364" y="122" width="120" height="10" rx="3" opacity="0.6"/><rect x="364" y="144" width="150" height="10" rx="3" opacity="0.35"/></g>
+  <circle cx="146" cy="130" r="18" fill="none" stroke="#3A3F49" stroke-width="3"/>
+
+  <path d="M96 190h448l-26 150H122z" fill="url(#sheet)"/>
+  <g clip-path="none">
+    <path d="M148 226h180v22H148z" fill="#1A1C22"/>
+    <path d="M148 262h300v14H148z" fill="#5A606C"/>
+    <path d="M148 288h240v14H148z" fill="#8A9099"/>
+    <path d="M360 226h132v26H360z" fill="url(#ink)"/>
+    <path d="M448 262h32v40h-32z" fill="#E4262C" opacity="0.85"/>
+  </g>
+  <g stroke="#3A3F49" stroke-width="2">
+    <path d="M96 190h448" stroke="#E4262C"/>
+    <path d="M122 340h396"/>
+  </g>
+  <g fill="#2A2E36"><rect x="70" y="340" width="34" height="46" rx="3"/><rect x="536" y="340" width="34" height="46" rx="3"/></g>
+  <g stroke="#4A4F59" stroke-width="2" stroke-dasharray="6 8"><path d="M320 348v42"/></g>
+</svg>

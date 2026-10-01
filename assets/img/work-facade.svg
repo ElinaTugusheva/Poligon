@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="Светящаяся вывеска на фасаде">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101116"/>
+      <stop offset="1" stop-color="#07080B"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B1D23"/>
+      <stop offset="1" stop-color="#121318"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E4262C" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#E4262C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A2D36"/>
+      <stop offset="1" stop-color="#15171C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="420" fill="url(#sky)"/>
+  <g stroke="#22252D" stroke-width="1">
+    <path d="M0 60h640M0 140h640M0 220h640M0 300h640M0 380h640"/>
+    <path d="M80 0v420M200 0v420M320 0v420M440 0v420M560 0v420"/>
+  </g>
+
+  <rect x="56" y="42" width="528" height="336" fill="url(#wall)"/>
+  <g stroke="#2C303A" stroke-width="1.5">
+    <path d="M56 118h528M56 250h528M184 42v336M320 42v336M456 42v336"/>
+  </g>
+
+  <g fill="url(#win)">
+    <rect x="86" y="150" width="70" height="72"/><rect x="214" y="150" width="70" height="72"/>
+    <rect x="350" y="150" width="70" height="72"/><rect x="486" y="150" width="70" height="72"/>
+  </g>
+
+  <ellipse cx="320" cy="98" rx="230" ry="70" fill="url(#glow)"/>
+  <rect x="150" y="62" width="340" height="72" rx="8" fill="#0E0F13" stroke="#E4262C" stroke-width="2"/>
+  <g fill="#F2F3F5">
+    <rect x="176" y="86" width="16" height="24" rx="3"/>
+    <rect x="202" y="78" width="16" height="32" rx="3"/>
+    <rect x="228" y="86" width="16" height="24" rx="3"/>
+    <rect x="254" y="78" width="16" height="32" rx="3"/>
+    <rect x="280" y="86" width="16" height="24" rx="3"/>
+  </g>
+  <path d="M320 78h58v32h-58z" fill="#E4262C" opacity="0.9"/>
+  <path d="M392 78l46 16-46 16z" fill="#E4262C"/>
+  <path d="M150 134h340" stroke="#E4262C" stroke-width="3" opacity="0.7"/>
+
+  <g fill="#0F1116" stroke="#31353F" stroke-width="1.5">
+    <rect x="86" y="286" width="200" height="92" rx="4"/>
+    <rect x="354" y="286" width="200" height="92" rx="4"/>
+  </g>
+  <g stroke="#E4262C" stroke-width="2" opacity="0.85">
+    <path d="M86 286l200 92M286 286L86 378M354 286l200 92M554 286l-200 92"/>
+  </g>
+  <path d="M56 378h528" stroke="#3A3F4A" stroke-width="3"/>
+  <path d="M0 402h640" stroke="#E4262C" stroke-width="2" opacity="0.35"/>
+</svg>

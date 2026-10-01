@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="Оформление витрин">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15161B"/><stop offset="1" stop-color="#0A0B0E"/>
+    </linearGradient>
+    <linearGradient id="pane" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#232730"/><stop offset="0.5" stop-color="#14161B"/><stop offset="1" stop-color="#1E222A"/>
+    </linearGradient>
+    <linearGradient id="film" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E4262C" stop-opacity="0.9"/><stop offset="1" stop-color="#E4262C" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg6)"/>
+  <g stroke="#1F2229"><path d="M0 84h640M0 168h640M0 252h640M0 336h640M106 0v420M212 0v420M318 0v420M424 0v420M530 0v420"/></g>
+
+  <rect x="48" y="52" width="544" height="316" fill="#101216" stroke="#2A2E37" stroke-width="2"/>
+  <rect x="72" y="88" width="230" height="220" fill="url(#pane)" stroke="#333844"/>
+  <rect x="338" y="88" width="230" height="220" fill="url(#pane)" stroke="#333844"/>
+  <path d="M72 88l230 220M302 88L72 308" stroke="#2C313A" stroke-width="1.5"/>
+  <path d="M338 88l230 220M568 88L338 308" stroke="#2C313A" stroke-width="1.5"/>
+
+  <path d="M72 232h230v76H72z" fill="url(#film)"/>
+  <g fill="#F4F5F7">
+    <rect x="96" y="120" width="16" height="72"/><rect x="122" y="120" width="16" height="72"/><rect x="148" y="120" width="16" height="72"/>
+    <rect x="96" y="148" width="68" height="16"/>
+    <rect x="186" y="120" width="16" height="72"/><path d="M212 120h16v72zM238 120l16 18v36l-16 18z"/>
+  </g>
+  <g fill="#F4F5F7" opacity="0.92">
+    <rect x="362" y="248" width="80" height="12"/><rect x="362" y="270" width="140" height="10" opacity="0.6"/>
+  </g>
+  <g stroke="#E4262C" stroke-width="3" fill="none"><path d="M338 232h230"/></g>
+  <g fill="#0E1014" stroke="#3A3F49" stroke-width="2">
+    <rect x="382" y="130" width="60" height="80" rx="4"/><rect x="462" y="150" width="46" height="60" rx="4"/>
+  </g>
+  <g fill="#E4262C"><rect x="382" y="130" width="60" height="10" rx="3"/><rect x="462" y="150" width="46" height="8" rx="3"/></g>
+  <path d="M48 368h544" stroke="#3A3F49" stroke-width="4"/>
+</svg>

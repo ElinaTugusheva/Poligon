@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="ПОЛИГОН">
+  <rect width="64" height="64" rx="14" fill="#0C0D10"/>
+  <path d="M32 8l20 12v24L32 56 12 44V20z" fill="none" stroke="#2E323B" stroke-width="2"/>
+  <path d="M32 16l13 8v16l-13 8-13-8V24z" fill="#E4262C"/>
+  <path d="M27 25h10a6 6 0 010 12h-4v6h-6z" fill="#0C0D10"/>
+</svg>

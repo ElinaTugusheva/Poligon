@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="Объёмные буквы с подсветкой">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141519"/><stop offset="1" stop-color="#08090C"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6F7F9"/><stop offset="1" stop-color="#C9CCD3"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.6" r="0.5">
+      <stop offset="0" stop-color="#E4262C" stop-opacity="0.5"/><stop offset="1" stop-color="#E4262C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg2)"/>
+  <g stroke="#1F2229" stroke-width="1">
+    <path d="M0 105h640M0 210h640M0 315h640M128 0v420M256 0v420M384 0v420M512 0v420"/>
+  </g>
+  <ellipse cx="320" cy="230" rx="250" ry="120" fill="url(#halo)"/>
+  <rect x="40" y="60" width="560" height="300" rx="6" fill="#101216" stroke="#262A32"/>
+  <g stroke="#20242C" stroke-width="1.5"><path d="M40 150h560M40 270h560"/></g>
+
+  <g>
+    <g fill="#3A3F49">
+      <path d="M104 160l14-12v100l-14 12z"/><path d="M104 148h64l14-12h-64z"/>
+      <path d="M196 160l14-12v100l-14 12z"/><path d="M196 148h64l14-12h-64z"/>
+      <path d="M288 160l14-12v100l-14 12z"/><path d="M288 148h64l14-12h-64z"/>
+      <path d="M380 160l14-12v100l-14 12z"/><path d="M380 148h64l14-12h-64z"/>
+    </g>
+    <g fill="url(#face)">
+      <rect x="88" y="160" width="16" height="100" rx="2"/><rect x="104" y="160" width="44" height="16"/>
+      <rect x="132" y="160" width="16" height="100" rx="2"/><rect x="104" y="202" width="44" height="16"/>
+      <rect x="104" y="244" width="44" height="16" rx="2"/>
+      <rect x="180" y="160" width="16" height="100" rx="2"/><rect x="224" y="160" width="16" height="100" rx="2"/>
+      <rect x="180" y="244" width="60" height="16" rx="2"/>
+      <rect x="272" y="160" width="16" height="100" rx="2"/><rect x="288" y="202" width="46" height="16"/>
+      <rect x="318" y="160" width="16" height="100" rx="2"/>
+      <rect x="364" y="160" width="16" height="100" rx="2"/><rect x="380" y="244" width="60" height="16" rx="2"/>
+      <rect x="436" y="160" width="16" height="100" rx="2"/>
+    </g>
+    <g fill="#E4262C">
+      <rect x="480" y="160" width="16" height="100" rx="2"/>
+      <path d="M504 160h16v100h-16zM520 160l32 50-32 50z"/>
+    </g>
+  </g>
+  <g stroke="#E4262C" stroke-width="2" opacity="0.75">
+    <path d="M88 290h464"/><path d="M88 300h300" opacity="0.4"/>
+  </g>
+  <g fill="#6C727E"><circle cx="96" cy="336" r="4"/><circle cx="120" cy="336" r="4"/><circle cx="144" cy="336" r="4"/></g>
+</svg>

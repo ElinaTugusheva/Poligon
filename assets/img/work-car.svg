@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="Оформление транспорта">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#131419"/><stop offset="1" stop-color="#0A0B0E"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2F3F6"/><stop offset="1" stop-color="#B9BEC7"/>
+    </linearGradient>
+    <linearGradient id="glass4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2B2F38"/><stop offset="1" stop-color="#171A20"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg4)"/>
+  <g stroke="#1D2027" stroke-width="1"><path d="M0 70h640M0 140h640M0 210h640M0 280h640M0 350h640M90 0v420M180 0v420M270 0v420M360 0v420M450 0v420M540 0v420"/></g>
+  <g stroke="#2E323B" stroke-width="2"><path d="M40 352h560"/></g>
+  <ellipse cx="320" cy="360" rx="220" ry="18" fill="#E4262C" opacity="0.08"/>
+
+  <path d="M96 300V196a12 12 0 0112-12h262l74 44a20 20 0 0110 17v55a8 8 0 01-8 8H104a8 8 0 01-8-8z" fill="url(#body)"/>
+  <path d="M120 200h150v96H120z" fill="#E4262C" opacity="0.92"/>
+  <path d="M270 200h100v40H270z" fill="#16181D"/>
+  <path d="M270 248h64v48h-64z" fill="#16181D" opacity="0.7"/>
+  <path d="M374 232l62 37-62 0z" fill="url(#glass4)"/>
+  <g fill="#F6F7F9">
+    <rect x="140" y="222" width="14" height="52"/><rect x="162" y="222" width="14" height="52"/>
+    <rect x="184" y="222" width="14" height="52"/><rect x="206" y="222" width="14" height="52"/>
+    <path d="M232 222h14v52zM254 222l14 13v26l-14 13z"/>
+  </g>
+  <g fill="#E4262C"><path d="M120 300h250v8H120z" opacity="0.9"/></g>
+  <g fill="#101216" stroke="#3A3F49" stroke-width="3">
+    <circle cx="176" cy="308" r="30"/><circle cx="424" cy="308" r="30"/>
+  </g>
+  <g fill="#5A606B"><circle cx="176" cy="308" r="11"/><circle cx="424" cy="308" r="11"/></g>
+  <g stroke="#E4262C" stroke-width="2" opacity="0.5"><path d="M470 200h120M470 224h84M470 248h110"/></g>
+  <g fill="#6C727E" font-family="monospace" font-size="14"><text x="470" y="290" fill="#7C828E">WRAP / 3M / LAM</text></g>
+</svg>
